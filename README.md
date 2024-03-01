@@ -4,10 +4,10 @@ Just me trying to learn a new language :)
 
 ## Bread and butter
 
-`go mod init [package]` - create module
-`go mod tidy` - pull deps in package
-`go get .` - update deps (when to use over mod tidy?)
-`go mod edit -replace [package]=[local_package]` - fix local deps
+- `go mod init [package]` - create module
+- `go mod tidy` - pull deps in package
+- `go get .` - update deps (when to use over mod tidy?)
+- `go mod edit -replace [package]=[local_package]` - fix local deps
 
 - `:=` means assigning
   - But also `in` in a `for in` loop?
